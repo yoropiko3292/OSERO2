@@ -123,9 +123,9 @@ function playerPut() {
 }
 
 function endSet() {
-    if (gameBlack > gameWhite || rtd == -1) {
+    if (gameBlack > gameWhite) {
          winner = "White";
-    }else if (gameBlack < gameWhite || rtd == 1) {
+    }else if (gameBlack < gameWhite) {
          winner = "Black";
     }else{
         winner = "none"
